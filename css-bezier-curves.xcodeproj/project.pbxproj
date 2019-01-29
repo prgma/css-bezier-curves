@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B044011C220012F800B40E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044011B220012F800B40E5A /* AppDelegate.swift */; };
+		B044011E220012F800B40E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044011D220012F800B40E5A /* ViewController.swift */; };
+		B0440121220012F800B40E5A /* css_bezier_curves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044011F220012F800B40E5A /* css_bezier_curves.xcdatamodeld */; };
+		B0440123220012F900B40E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0440122220012F900B40E5A /* Assets.xcassets */; };
+		B0440126220012F900B40E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0440124220012F900B40E5A /* Main.storyboard */; };
+		B0440132220012F900B40E5A /* css_bezier_curvesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0440131220012F900B40E5A /* css_bezier_curvesTests.swift */; };
+		B044013D220012F900B40E5A /* css_bezier_curvesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044013C220012F900B40E5A /* css_bezier_curvesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B044012E220012F900B40E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0440110220012F800B40E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0440117220012F800B40E5A;
+			remoteInfo = "css-bezier-curves";
+		};
+		B0440139220012F900B40E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0440110220012F800B40E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0440117220012F800B40E5A;
+			remoteInfo = "css-bezier-curves";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0440118220012F800B40E5A /* css-bezier-curves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "css-bezier-curves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B044011B220012F800B40E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B044011D220012F800B40E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0440120220012F800B40E5A /* css_bezier_curves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = css_bezier_curves.xcdatamodel; sourceTree = "<group>"; };
+		B0440122220012F900B40E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0440125220012F900B40E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0440127220012F900B40E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0440128220012F900B40E5A /* css_bezier_curves.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = css_bezier_curves.entitlements; sourceTree = "<group>"; };
+		B044012D220012F900B40E5A /* css-bezier-curvesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "css-bezier-curvesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0440131220012F900B40E5A /* css_bezier_curvesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = css_bezier_curvesTests.swift; sourceTree = "<group>"; };
+		B0440133220012F900B40E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0440138220012F900B40E5A /* css-bezier-curvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "css-bezier-curvesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B044013C220012F900B40E5A /* css_bezier_curvesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = css_bezier_curvesUITests.swift; sourceTree = "<group>"; };
+		B044013E220012F900B40E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0440115220012F800B40E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B044012A220012F900B40E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0440135220012F900B40E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B044010F220012F800B40E5A = {
+			isa = PBXGroup;
+			children = (
+				B044011A220012F800B40E5A /* css-bezier-curves */,
+				B0440130220012F900B40E5A /* css-bezier-curvesTests */,
+				B044013B220012F900B40E5A /* css-bezier-curvesUITests */,
+				B0440119220012F800B40E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0440119220012F800B40E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0440118220012F800B40E5A /* css-bezier-curves.app */,
+				B044012D220012F900B40E5A /* css-bezier-curvesTests.xctest */,
+				B0440138220012F900B40E5A /* css-bezier-curvesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B044011A220012F800B40E5A /* css-bezier-curves */ = {
+			isa = PBXGroup;
+			children = (
+				B044011B220012F800B40E5A /* AppDelegate.swift */,
+				B044011D220012F800B40E5A /* ViewController.swift */,
+				B0440122220012F900B40E5A /* Assets.xcassets */,
+				B0440124220012F900B40E5A /* Main.storyboard */,
+				B0440127220012F900B40E5A /* Info.plist */,
+				B0440128220012F900B40E5A /* css_bezier_curves.entitlements */,
+				B044011F220012F800B40E5A /* css_bezier_curves.xcdatamodeld */,
+			);
+			path = "css-bezier-curves";
+			sourceTree = "<group>";
+		};
+		B0440130220012F900B40E5A /* css-bezier-curvesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0440131220012F900B40E5A /* css_bezier_curvesTests.swift */,
+				B0440133220012F900B40E5A /* Info.plist */,
+			);
+			path = "css-bezier-curvesTests";
+			sourceTree = "<group>";
+		};
+		B044013B220012F900B40E5A /* css-bezier-curvesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B044013C220012F900B40E5A /* css_bezier_curvesUITests.swift */,
+				B044013E220012F900B40E5A /* Info.plist */,
+			);
+			path = "css-bezier-curvesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0440117220012F800B40E5A /* css-bezier-curves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0440141220012F900B40E5A /* Build configuration list for PBXNativeTarget "css-bezier-curves" */;
+			buildPhases = (
+				B0440114220012F800B40E5A /* Sources */,
+				B0440115220012F800B40E5A /* Frameworks */,
+				B0440116220012F800B40E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "css-bezier-curves";
+			productName = "css-bezier-curves";
+			productReference = B0440118220012F800B40E5A /* css-bezier-curves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B044012C220012F900B40E5A /* css-bezier-curvesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0440144220012F900B40E5A /* Build configuration list for PBXNativeTarget "css-bezier-curvesTests" */;
+			buildPhases = (
+				B0440129220012F900B40E5A /* Sources */,
+				B044012A220012F900B40E5A /* Frameworks */,
+				B044012B220012F900B40E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B044012F220012F900B40E5A /* PBXTargetDependency */,
+			);
+			name = "css-bezier-curvesTests";
+			productName = "css-bezier-curvesTests";
+			productReference = B044012D220012F900B40E5A /* css-bezier-curvesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0440137220012F900B40E5A /* css-bezier-curvesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0440147220012F900B40E5A /* Build configuration list for PBXNativeTarget "css-bezier-curvesUITests" */;
+			buildPhases = (
+				B0440134220012F900B40E5A /* Sources */,
+				B0440135220012F900B40E5A /* Frameworks */,
+				B0440136220012F900B40E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B044013A220012F900B40E5A /* PBXTargetDependency */,
+			);
+			name = "css-bezier-curvesUITests";
+			productName = "css-bezier-curvesUITests";
+			productReference = B0440138220012F900B40E5A /* css-bezier-curvesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0440110220012F800B40E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Aaron Ross";
+				TargetAttributes = {
+					B0440117220012F800B40E5A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B044012C220012F900B40E5A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B0440117220012F800B40E5A;
+					};
+					B0440137220012F900B40E5A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B0440117220012F800B40E5A;
+					};
+				};
+			};
+			buildConfigurationList = B0440113220012F800B40E5A /* Build configuration list for PBXProject "css-bezier-curves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B044010F220012F800B40E5A;
+			productRefGroup = B0440119220012F800B40E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0440117220012F800B40E5A /* css-bezier-curves */,
+				B044012C220012F900B40E5A /* css-bezier-curvesTests */,
+				B0440137220012F900B40E5A /* css-bezier-curvesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0440116220012F800B40E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0440123220012F900B40E5A /* Assets.xcassets in Resources */,
+				B0440126220012F900B40E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B044012B220012F900B40E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0440136220012F900B40E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0440114220012F800B40E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B044011E220012F800B40E5A /* ViewController.swift in Sources */,
+				B044011C220012F800B40E5A /* AppDelegate.swift in Sources */,
+				B0440121220012F800B40E5A /* css_bezier_curves.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0440129220012F900B40E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0440132220012F900B40E5A /* css_bezier_curvesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0440134220012F900B40E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B044013D220012F900B40E5A /* css_bezier_curvesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B044012F220012F900B40E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0440117220012F800B40E5A /* css-bezier-curves */;
+			targetProxy = B044012E220012F900B40E5A /* PBXContainerItemProxy */;
+		};
+		B044013A220012F900B40E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0440117220012F800B40E5A /* css-bezier-curves */;
+			targetProxy = B0440139220012F900B40E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0440124220012F900B40E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0440125220012F900B40E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B044013F220012F900B40E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0440140220012F900B40E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B0440142220012F900B40E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "css-bezier-curves/css_bezier_curves.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5746DUTF3;
+				INFOPLIST_FILE = "css-bezier-curves/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.aaronross.css-bezier-curves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B0440143220012F900B40E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "css-bezier-curves/css_bezier_curves.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5746DUTF3;
+				INFOPLIST_FILE = "css-bezier-curves/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.aaronross.css-bezier-curves";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		B0440145220012F900B40E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5746DUTF3;
+				INFOPLIST_FILE = "css-bezier-curvesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.aaronross.css-bezier-curvesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/css-bezier-curves.app/Contents/MacOS/css-bezier-curves";
+			};
+			name = Debug;
+		};
+		B0440146220012F900B40E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5746DUTF3;
+				INFOPLIST_FILE = "css-bezier-curvesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.aaronross.css-bezier-curvesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/css-bezier-curves.app/Contents/MacOS/css-bezier-curves";
+			};
+			name = Release;
+		};
+		B0440148220012F900B40E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5746DUTF3;
+				INFOPLIST_FILE = "css-bezier-curvesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.aaronross.css-bezier-curvesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "css-bezier-curves";
+			};
+			name = Debug;
+		};
+		B0440149220012F900B40E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5746DUTF3;
+				INFOPLIST_FILE = "css-bezier-curvesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.aaronross.css-bezier-curvesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "css-bezier-curves";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0440113220012F800B40E5A /* Build configuration list for PBXProject "css-bezier-curves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B044013F220012F900B40E5A /* Debug */,
+				B0440140220012F900B40E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0440141220012F900B40E5A /* Build configuration list for PBXNativeTarget "css-bezier-curves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0440142220012F900B40E5A /* Debug */,
+				B0440143220012F900B40E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0440144220012F900B40E5A /* Build configuration list for PBXNativeTarget "css-bezier-curvesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0440145220012F900B40E5A /* Debug */,
+				B0440146220012F900B40E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0440147220012F900B40E5A /* Build configuration list for PBXNativeTarget "css-bezier-curvesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0440148220012F900B40E5A /* Debug */,
+				B0440149220012F900B40E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B044011F220012F800B40E5A /* css_bezier_curves.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0440120220012F800B40E5A /* css_bezier_curves.xcdatamodel */,
+			);
+			currentVersion = B0440120220012F800B40E5A /* css_bezier_curves.xcdatamodel */;
+			path = css_bezier_curves.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0440110220012F800B40E5A /* Project object */;
+}
