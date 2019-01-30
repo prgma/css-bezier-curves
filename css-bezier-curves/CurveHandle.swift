@@ -17,6 +17,7 @@ func rectForControlPoint(_ p: CGPoint) -> NSRect {
     return NSRect(origin: CGPoint(x: p.x - activeHandleSize.width / 2.0, y: p.y - activeHandleSize.height / 2.0), size: activeHandleSize)
 }
 
+// TODO: add outline and drop shadow to handle
 class CurveHandle: ContextView {
     
     static let startColor = CGColor(red: 0.184, green: 0.443, blue: 0.969, alpha: 1)
@@ -33,7 +34,6 @@ class CurveHandle: ContextView {
         super.init(frame: rectForControlPoint(point))
     }
     
-    // FIXME: no clue if this is right
     required init?(coder decoder: NSCoder) {
         self.point = CGPoint(x: 0.0, y: 0.0)
         self.onMove = noop

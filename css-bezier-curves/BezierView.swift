@@ -8,9 +8,8 @@
 
 import Cocoa
 
-// TODO: provide a public interface for updating control handles
 // TODO: provide a public interface for responding to control handle value changes
-// TODO: scale input/output to 0.0 -> 1.0
+// TODO: add circle at curve start and end (0.0, 0.0) -> (1.0, 1.0)
 class BezierView: GridView {
     
     private var bezier = Vec4(x1: 0.0, y1: 0.0, x2: 1.0, y2: 1.0)
