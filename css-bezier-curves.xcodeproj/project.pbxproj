@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03CB8542200B513000C9C3F /* CurveHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CB8532200B513000C9C3F /* CurveHandle.swift */; };
+		B03CB8562200BAB3000C9C3F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CB8552200BAB3000C9C3F /* GridView.swift */; };
 		B044011C220012F800B40E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044011B220012F800B40E5A /* AppDelegate.swift */; };
 		B044011E220012F800B40E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044011D220012F800B40E5A /* ViewController.swift */; };
 		B0440121220012F800B40E5A /* css_bezier_curves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044011F220012F800B40E5A /* css_bezier_curves.xcdatamodeld */; };
@@ -14,6 +16,9 @@
 		B0440126220012F900B40E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0440124220012F900B40E5A /* Main.storyboard */; };
 		B0440132220012F900B40E5A /* css_bezier_curvesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0440131220012F900B40E5A /* css_bezier_curvesTests.swift */; };
 		B044013D220012F900B40E5A /* css_bezier_curvesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044013C220012F900B40E5A /* css_bezier_curvesUITests.swift */; };
+		B0A537D82201774400AD878B /* ContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A537D72201774400AD878B /* ContextView.swift */; };
+		B0FBF09422001EA9009F4CFD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FBF09322001EA9009F4CFD /* Model.swift */; };
+		B0FBF09822002FE7009F4CFD /* BezierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FBF09722002FE7009F4CFD /* BezierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B03CB8532200B513000C9C3F /* CurveHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveHandle.swift; sourceTree = "<group>"; };
+		B03CB8552200BAB3000C9C3F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		B0440118220012F800B40E5A /* css-bezier-curves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "css-bezier-curves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B044011B220012F800B40E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B044011D220012F800B40E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +55,9 @@
 		B0440138220012F900B40E5A /* css-bezier-curvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "css-bezier-curvesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B044013C220012F900B40E5A /* css_bezier_curvesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = css_bezier_curvesUITests.swift; sourceTree = "<group>"; };
 		B044013E220012F900B40E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A537D72201774400AD878B /* ContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextView.swift; sourceTree = "<group>"; };
+		B0FBF09322001EA9009F4CFD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B0FBF09722002FE7009F4CFD /* BezierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +110,16 @@
 			children = (
 				B044011B220012F800B40E5A /* AppDelegate.swift */,
 				B044011D220012F800B40E5A /* ViewController.swift */,
+				B0FBF09322001EA9009F4CFD /* Model.swift */,
 				B0440122220012F900B40E5A /* Assets.xcassets */,
 				B0440124220012F900B40E5A /* Main.storyboard */,
 				B0440127220012F900B40E5A /* Info.plist */,
 				B0440128220012F900B40E5A /* css_bezier_curves.entitlements */,
 				B044011F220012F800B40E5A /* css_bezier_curves.xcdatamodeld */,
+				B0FBF09722002FE7009F4CFD /* BezierView.swift */,
+				B03CB8532200B513000C9C3F /* CurveHandle.swift */,
+				B03CB8552200BAB3000C9C3F /* GridView.swift */,
+				B0A537D72201774400AD878B /* ContextView.swift */,
 			);
 			path = "css-bezier-curves";
 			sourceTree = "<group>";
@@ -260,6 +275,11 @@
 				B044011E220012F800B40E5A /* ViewController.swift in Sources */,
 				B044011C220012F800B40E5A /* AppDelegate.swift in Sources */,
 				B0440121220012F800B40E5A /* css_bezier_curves.xcdatamodeld in Sources */,
+				B03CB8562200BAB3000C9C3F /* GridView.swift in Sources */,
+				B0A537D82201774400AD878B /* ContextView.swift in Sources */,
+				B0FBF09422001EA9009F4CFD /* Model.swift in Sources */,
+				B0FBF09822002FE7009F4CFD /* BezierView.swift in Sources */,
+				B03CB8542200B513000C9C3F /* CurveHandle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
